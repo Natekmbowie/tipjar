@@ -11,8 +11,8 @@ The goal of this project, aside from allowing me to work on something, is to hop
 Oh, and all default links are just filled in with placeholder stuff - e.g. QR codes to the Wikipedia page on Rick Rolls. We'll all replace that in a moment.
 
 ## Reccomended Tools
-Notepad ++ for Minor Text/Code Edits
-Kompozer for Page Edits
+Notepad ++ for Minor Text/Code Edits - 
+Kompozer for Page Edits - 
 the-qrcode-generator.com for QR Code Generation
 
 ## Step 0-A: Website Setup (Home Page + Tip Jar Page)
