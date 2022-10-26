@@ -22,9 +22,9 @@ Coinomi -or- Exodus Wallet for Crypto Donations
 Wallet of Satoshi for Bitcoin Lightening Donations
 
 ## Step 0 Web Hosts Setup
-The first step you getting a Tip Jar page set up is to figure out where you wish to host it. This will work on almost any host you can set up, some of which are free.
+The first step you getting a Tip Jar page set up is to figure out where you wish to host it. This will work on almost any host you can set up, some of which are free. If you already have a website that allows you to uplaod files then you can ignore this step.
 
-Your A Few Options Include
+A Few Options Include
 * Paid Shared Hosts (e.g. Hostgator)
 * Github Pages (free)
 * NeoCities (free)
@@ -51,11 +51,36 @@ The first content you will likely want to replace is some images. You will want 
 
 You will also want to generate three QR codes. Go to the QR code generating website and create one QR code of your Bitcoin Address, one of your Bitcoin Lightening Address, and one of your Monero address (assuming you are using them all) by pasting in the address then downloading the generated QR code.
 
+Once you have all five images, name them the following names:
+
+* "credit.png" for the image representing a donation with a credit card
+* "merch.png" for the image representing merch purchases
+* "btcdonate.png" for the donate with Bitcoin QR Code
+* "btcldonate.png" for the donate with Bitcoin on the Lightening Network QR Code
+* "xmrdonate.png" for the donate with Monero QR Code
+
+Once you have the images renamed, copy them one by one into the tipjar_files folder. Each time you do it should say there is already a file there with that name and ask you if you want to replace it, make sure you select to replace it each time. Once you have done that for each you can open the tipjar.html file in a web browser and make sure that it is showing the new images (if it does not, try hitting refresh).
+
+You can follow this step to replace any other image or file in the project.
+
 ## Step 4: Code Edits
+Once you have the images fixed, now you need to make some minor edits to some code. This will probably be the most tricky looking, but it should be pretty strait forward. Open your text editor of choice (such as NotePad++) and make sure text wrap is off. You can do this in NotePad++ by clicking "View" and making sure that word wrap is not selected. Open the file tipjar.html in your text editor and make the changes listed below. For example, replacing *example.com* with your home page (say *yourpage.com* or *youtube.com/c/yourchanel*). In that case you would change that specific line of text and NOT change any other text (for example, if there are quotation markes around example.com LEAVE THEM IN when you replace example.com with something else).
 
-## Step 5: "Other" Page and "Other Crypto" Page
+* in line 9 replace *https://example.com* with your home page. This could be the home page link to your website (multiple options, see 7-A or 7-B), or it could be a link to your main social media account. Just paste in the link you want people to go to when they click the "home" button.
+* in line 12 replace *Donate to [name] to help support their work* with the text you want to show above the donation options. You can, however, also edit this in Step 6.
+* in line 22 replace *https://example.com* with the link to your Merch store or other place to buy things from you (assuming you have one)
+* in line 27 replace *https://example.com* with the link to your favorite donation service that supports credit cards (assuming you have one)
 
-## Step 6: Main Page Edit
+Now, save the changes and close the file. You can edit a lot more if you want to experiment, but these edits are all that must be done and are pretty much garunteed not to break things.
+
+## Step 5: Edit Pop-Up Pages
+With the main page mostly finished up, you can now edit the pop-up pages. Luckily these can be done without touching any code. Open your HTML editor (such as Kompozer. The four pages we will edit here are the btc.html, xmr.html, other.html, and othercrypto.html - all of which can be found in the tipjar_files folder. For each file open it in your editor and make the following changes:
+
+* btc.html: replace [bitcoin address] with your Bitcoin Address, and [Lightening address] with your Bitcoin Lightening Address you got earlier. The QR code should already be correct since you updated the image in step 3.
+* xmr.html: replace [xmr address] with your Monero address you got earlier. Again, the QR code should be correct.
+* other.html: here is where you can add links to various other donation services and the like. In Kompozer, add links to what you would like by clicking the link icon, entering the text you wish the link to display, the URL that you want the user to go to, and open in new tab from the dropdown menu.
+
+## (optional) Step 6: Main Page Edit
 
 ## Step 7: Upload
 
@@ -64,3 +89,5 @@ You will also want to generate three QR codes. Go to the QR code generating webs
 ### Step 7-B: Website Setup (Tip Jar Only)
 
 ## Help & More
+
+## Credits
