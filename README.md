@@ -84,7 +84,7 @@ With the main page mostly finished up, you can now edit the pop-up pages. Luckil
 ## (optional) Step 6: Main Page Edit
 While you don't need to take this step, and this step is probably the most likely to break stuff, with all other edits done now is your chance to open the main page (tipjar.html) and make any additional changes you want from withing a graphical editor instead of doing it by code (unfortunately most code changes listed above have to be done through code only). Optional changes include:
 
-* double clicking the *home* link and changing where it points
+* double clicking the *home* link and changing where it points (as apposed to doing it in step 4 manually (
 * changing the about text that introduces you (or removing it entirely)
 * deleting unused buttons and their corresponding images (just delete them with backspace like you would with an image in Word/Libre Office)
 * changing the background and text colors (in the format menu of Kompozer) - I changed mine to match the color scheme of my website
