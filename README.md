@@ -79,12 +79,21 @@ With the main page mostly finished up, you can now edit the pop-up pages. Luckil
 * btc.html: replace [bitcoin address] with your Bitcoin Address, and [Lightening address] with your Bitcoin Lightening Address you got earlier. The QR code should already be correct since you updated the image in step 3.
 * xmr.html: replace [xmr address] with your Monero address you got earlier. Again, the QR code should be correct.
 * other.html: here is where you can add links to various other donation services and the like. In Kompozer, add links to what you would like by clicking the link icon, entering the text you wish the link to display, the URL that you want the user to go to, and open in new tab from the dropdown menu.
+* othercrypto.html: this is where you can keep misc crypto addresses. Assuming you went with what I set as default, Bitcoin will have a main spot because it's most popular, Bitcoin lightening because it's great for tiny transactions (say a 10c transaction with no fees), and Monero because it's fairly popular (especially with the privacy community) and also private. Adding a bunch of other crypto addresses of your choosing will allow more options even if they're probably way less likely to be used. You can just set the names of each crypto you want to include and paste in the address for it, no need for QR codes since the goal is just to provide a bunch of misc options for anybody who wants them. Like other.html, you can edit it in Kompozer like a text/word document instead of dealing with code.
 
 ## (optional) Step 6: Main Page Edit
+While you don't need to take this step, and this step is probably the most likely to break stuff, with all other edits done now is your chance to open the main page (tipjar.html) and make any additional changes you want from withing a graphical editor instead of doing it by code (unfortunately most code changes listed above have to be done through code only). Optional changes include:
+
+* double clicking the *home* link and changing where it points
+* changing the about text that introduces you (or removing it entirely)
+* deleting unused buttons and their corresponding images (just delete them with backspace like you would with an image in Word/Libre Office)
+* changing the background and text colors (in the format menu of Kompozer) - I changed mine to match the color scheme of my website
 
 ## Step 7: Upload
+Finally, the moment of truth! Upload the main page to your website host, and then create a new folder called tipjar_files and then upload all the files from the folder on your computer that you finished working on. Once you are done uploading make sure you double check every link, crypto address, and QR code is correct. Once that's done you can share the link. The exact link you share depends on how you choose to structure your new site.
 
 ### Step 7-A: Website Setup (Home Page + Tip Jar Page)
+With option A, you can set up a basic home page, or are already hosting a site and just want to add the tips page to it. If you are already hosting an existing site you should know how to rake it from here. If you do not have a sight but want to make one, then create a homepage from scratch. It can say anything you want it to, and link to anything you want it to. Once you are done, save your home page as index.html and upload that as well as your tipjar.html and tipjar_files content. If you have a custom domain your home page can be found by typing your domain (say your domain.com) and your tips page can be found at yourdomain.com/tipjar.html If you are using GitHub pages then your home page can be found at [username].github.com/[repositoryname] and your tips page can be found at [username].github.com/[repositoryname]/tipjar.html (replacing your domain.com, [username], or [repositoryname] with the values you chose). Same goes for NeoSites, or an IPFS gateway link, and so fourth.
 
 ### Step 7-B: Website Setup (Tip Jar Only)
 
