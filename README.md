@@ -3,9 +3,13 @@
 
 # Tip Jar
 [Github Repository & Download](https://github.com/Natekmbowie/tipjar)
+
 [Template 1](https://natekmbowie.github.io/tipjar/files/tipjar1.html)
+
 [Template 2](https://natekmbowie.github.io/tipjar/files/tipjar2.html)
+
 [Template 3](https://natekmbowie.github.io/tipjar/files/tipjar3.html)
+
 
 An Open Source template for creators to recieve donations. All simple self contained HTML, no complicated scripts, and no tracking of any kind.
 
