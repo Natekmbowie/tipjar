@@ -2,7 +2,12 @@
 
 
 # Tip Jar
-An Open Source template for creators to recieve donations. [see the Github Repository here](https://github.com/Natekmbowie/tipjar) or [check out an example here](https://natekmbowie.github.io/tipjar/files/tipjar.html). All simple self contained HTML, no complicated scripts, and no tracking of any kind.
+[Github Repository & Download](https://github.com/Natekmbowie/tipjar)
+[Template 1](https://natekmbowie.github.io/tipjar/files/tipjar1.html)
+[Template 2](https://natekmbowie.github.io/tipjar/files/tipjar2.html)
+[Template 3](https://natekmbowie.github.io/tipjar/files/tipjar3.html)
+
+An Open Source template for creators to recieve donations. All simple self contained HTML, no complicated scripts, and no tracking of any kind.
 
 I was in the mood for working on something like this instead of doing other things I needed to get done, so what the heck. This is obviously overly generic, so I can't garuntee it's the best for you, but I figured I would lay it out in they way I would assume would be the best for the most people. You can modify it as much as you want, but below I will lay out step by step instructions that should allow you to deploy something like this without needing to know coding (you'll have to edit a bit, but it will all be copy/paste or edited like a word doc).
 
